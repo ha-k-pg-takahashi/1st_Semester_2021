@@ -1,12 +1,15 @@
 #include"Enemy.h"
 
+
+
 Enemy::Enemy()
+
+:Hp(8), Mp(1), Atk(2), Def(1)
+
+
 {
-	Name[0] = '\0';
-	Hp = 8;
-	Mp = 1;
-	Atk = 2;
-	Def = 1;
+Name[0] = '\0';
+printf("コンストラクタ\n");
 }
 
 Enemy::~Enemy()
