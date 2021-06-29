@@ -13,8 +13,7 @@ Fighter::~Fighter()
 }
 void Fighter::InitRandomStatus()
 {
-	srand(time(NULL));
-
+	
 	status.hp = rand() % 20 + 1;
 	status.str = rand() % 20 + 1;
 	status.mag = rand() % 20 + 1;
